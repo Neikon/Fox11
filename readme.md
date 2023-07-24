@@ -52,3 +52,9 @@ Configure Vivaldifox as the images you can find in this repository folder in [Mi
 5. Dont forget to download my css file `acrylic_micaforeveryone.css` from `EXTRA THEMES` and  put it inside `Chrome` folder (and base files from Installation guide above).
 6. Remove and dont use any other min-max-close window button files.
 7. Expermental⚠️ In MicaForEveryone settings `firefox` section enable `Blur Behind` so when the window is not active it will still be blurred.
+
+
+
+
+
+> Thanks you to [Firefox-csshacks](https://mrotherguy.github.io/firefox-csshacks/?file=) for features code
