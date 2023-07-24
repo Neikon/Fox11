@@ -55,6 +55,6 @@ Configure Vivaldifox as the images you can find in this repository folder in [Mi
 
 
 
-
+> Only test it in Win11
 
 > Thanks you to [Firefox-csshacks](https://mrotherguy.github.io/firefox-csshacks/?file=) for features code
