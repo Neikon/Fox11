@@ -1,0 +1,81 @@
+/* ############# Required files ############## */
+@import url('components/autohide_bookmarks_and_main_toolbars.css');
+@import url('components/urlbar_centered_text.css');
+/* @import url('components/round_ui_items.css'); */
+@import url('components/round_caption_buttons.css');
+@import url('components/toolbars.css');
+@import url('components/mica_support.css');
+
+/* ############# Personal Settings ############## */
+#navigator-toolbox{--uc-autohide-toolbar-delay: 100ms; /* The toolbar is hidden after 0.1s */}
+:root{   
+   --general-border-radius: 8px !important;
+}
+/* You should enable any non-default theme for these to apply properly. Built-in dark and light themes should work */
+/* VivaldiFox Colors control */
+:root{
+   --auto-general-color: var(--lwt-accent-color, #2b2a33) !important;
+   --lwt-accent-color-inactive: var(--auto-general-color) !important;
+}
+@media (prefers-color-scheme: dark){ :root{
+   --auto-accent-color: color-mix(in srgb, var(--auto-general-color) 80%, white);
+   /* tabs with any other theme */
+   --lwt-text-color: #f1f1f1 !important;
+   
+}}
+@media (prefers-color-scheme: light){ :root{
+   --auto-accent-color: color-mix(in srgb, var(--auto-general-color) 80%, black);
+   --lwt-text-color: #303030 !important;
+
+}}
+:root{
+   /* Popup panels */
+   --arrowpanel-background: var(--auto-general-color) !important;
+   --arrowpanel-border-color: transparent !important;
+   --arrowpanel-color: var(--lwt-text-color) !important;
+   --arrowpanel-dimmed: var(--auto-accent-color) !important;
+   /* window and toolbar background */
+   --toolbar-bgcolor: var(--auto-general-color) !important;  
+   /* tabs with system theme - text is not controlled by variable */
+   --tab-selected-bgcolor: var(--auto-accent-color) !important;
+   /* tabs with any other theme */
+   --lwt-selected-tab-background-color: var(--auto-accent-color)!important;
+   /* toolbar area */
+   --toolbarbutton-icon-fill:  var(--lwt-text-color) !important;
+   --lwt-toolbarbutton-hover-background: var(--auto-accent-color) !important;
+   --lwt-toolbarbutton-active-background: var(--auto-accent-color) !important;
+   /* urlbar */
+   --toolbar-field-border-color: transparent !important;
+   --toolbar-field-focus-border-color: var(--auto-accent-color) !important;
+   --urlbar-popup-url-color: var(--auto-general-color) !important;
+   /* urlbar Firefox < 92 */
+   --lwt-toolbar-field-background-color: var(--auto-general-color) !important;
+   --lwt-toolbar-field-focus: var(--auto-accent-color) !important;
+   --lwt-toolbar-field-color: var(--lwt-text-color) !important;
+   --lwt-toolbar-field-focus-color: var(--auto-accent-color) !important;
+   /* urlbar Firefox 92+ */
+   --toolbar-field-background-color: var(--auto-accent-color) !important;
+   --toolbar-field-focus-background-color: var(--auto-accent-color) !important;
+   --toolbar-field-color: var(--lwt-text-color) !important;
+   --toolbar-field-focus-color: var(----auto-accent-color) !important;
+   /* sidebar - note the sidebar-box rule for the header-area */
+   --lwt-sidebar-background-color: var(--auto-general-color) !important;
+   --lwt-sidebar-text-color: var(--lwt-text-color) !important;
+   
+}
+#browser {
+--sidebar-border-color: transparent !important;
+} 
+/* shadow in nav-bar */
+#nav-bar:-moz-lwtheme {
+   box-shadow: 0 4px 8px 0 color-mix(in srgb, var(--auto-accent-color) 20%, transparent), 0 6px 20px 0 color-mix(in srgb, var(--auto-accent-color) 19%, transparent)!important ;
+ }
+
+ /* line between nav-bar and tabs toolbar,
+     also fallback color for border around selected tab */
+ #navigator-toolbox{ --lwt-tabs-border-color: var(--auto-general-color) !important; }
+ /* Line above tabs */
+ #tabbrowser-tabs{ --lwt-tab-line-color: var(--auto-accent-color) !important; }
+ /* the header-area of sidebar needs this to work */
+ #sidebar-box{ --sidebar-background-color: var(--auto-general-color) !important; }
+ 

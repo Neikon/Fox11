@@ -1,0 +1,46 @@
+/*  --------------------------------------- Rounded corner in pages --------------------------------------- */
+.browserStack>browser{
+    margin: 0px 4px 4px 4px !important; 
+    border-radius: 8px !important;
+    /* outline: 1px solid color-mix(in srgb, var(--auto-accent-color) 94%, var(--lwt-tab-text)) !important; */
+    /* outline: 1px solid red !important; */
+}
+ 
+findbar{ 
+    border-radius: 8px !important; 
+    z-index: 2; 
+    margin: 0 4px 4px !important; 
+}
+
+#sidebar-box {
+    margin-left:  4px !important;
+    margin-bottom: 4px !important;
+    border-radius: var(--general-border-radius) !important;
+}
+
+.browserContainer, .browserStack, #browser{
+    background-color: var(--auto-accent-color) !important;
+    background-color: transparent !important;
+    /* margin: 50px !important;  */
+
+}
+#navigator-toolbox{
+    background-color: var(--auto-accent-color) !important;
+    border-color: transparent !important;
+}
+#TabsToolbar {
+    margin: 4px 4px 0px 4px !important;
+    border-radius: var(--general-border-radius) !important;
+    /* border-bottom-left-radius: var(--general-border-radius) !important;
+    border-bottom-right-radius: var(--general-border-radius) !important; */
+    background-color: var(--auto-general-color) !important;
+}
+/* Nav-bar */
+.browser-toolbar:not(.titlebar-color) {
+    margin: 4px 4px 0px 4px !important;
+    /* margin: 4px 0px 4px 0px !important; */
+    border-radius: var(--general-border-radius) !important;
+    background-color: var(--auto-accent-color) !important;
+    /* background-color: var(--auto-general-color) !important; */
+    box-shadow: 4px;
+}
