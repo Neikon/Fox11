@@ -10,7 +10,7 @@ A Firefox CSS themes with auto-color, Mica, auto-hide nav-bar support. Inspired 
 
 ## How to install
 
-* [Download theme ](https://github.com/Neikon/Fox11/archive/refs/heads/main.zip)
+* [Download theme/Repo ](https://github.com/Neikon/Fox11/archive/refs/heads/main.zip)or download from [Github Releases](https://github.com/Neikon/Fox11/releases)
 * Open a new tab in firefox and write in url bar `about:support` you should see a list with your firefox data, You only need **"Profile folder"**, you can now click in "Open folder" button o copy the address to your profile folder.
   the address should be similar to following example depend of your system:
 
