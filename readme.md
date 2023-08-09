@@ -39,9 +39,27 @@ A Firefox CSS themes with auto-color, Mica, auto-hide nav-bar support. Inspired 
 
 ## How to enable Auto-color
 
-Download Vivaldifox [VivaldiFox from Mozilla add-ons](https://addons.mozilla.org/es/firefox/addon/vivaldifox/)
+### With VivaldiFox
+
+> This is more configurable, you can set theme color text in when web is ligth or dark, but the last update is a little bit old and slower than [Adaptive Tab Bar Colour](https://addons.mozilla.org/es/firefox/addon/adaptive-tab-bar-colour/)
+
+Download [VivaldiFox from Mozilla add-ons](https://addons.mozilla.org/es/firefox/addon/vivaldifox/)
 
 Configure Vivaldifox as the images you can find in this repository folder in [Minimal-VivaldiFox-Theme/VivaldiFox config screenshots/](https://github.com/Neikon/Minimal-VivaldiFox-Theme/tree/master/VivaldiFox%20config%20screenshots)
+
+### With Adaptive Tab Bar Colour
+
+> This is less configurable, you can **NOT** set theme color text in when web is ligth or dark ()It take firefox default color black/white). But it was updated in 10 de jul. de 2023 (at the moment to write this), can update theme color when you scroll down the website and is a little bit faster than [VivaldiFox](https://addons.mozilla.org/es/firefox/addon/vivaldifox/).
+
+Download `Fox11_` from [Github Releases](https://github.com/Neikon/Fox11/releases)
+
+Download [Adaptive Tab Bar Colour](https://addons.mozilla.org/es/firefox/addon/adaptive-tab-bar-colour/)
+
+Configure like this:
+
+![1691562149309](image/readme/1691562149309.png)
+
+![1691562162205](image/readme/1691562162205.png)
 
 ## How to enable Mica
 
