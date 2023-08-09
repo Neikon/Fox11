@@ -63,6 +63,8 @@ Configure like this:
 
 ## How to enable Mica
 
+![1691563418450](image/readme/1691563418450.png)
+
 1. Download the portable or installation file from [github.com/MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone/releases).
 2. Install the extra files it asks you to install. And run the program.
 3. At the bottom left corner press `Add Rule` -> `Add Process Rule`, type `firefox` -> `add`.
@@ -73,8 +75,6 @@ Configure like this:
 ## How to disable Mica
 
 Comment `@importurl('components/mica_support.css');` from `userChrome.css`
-
-
 
 > Only test it in Win11.
 
