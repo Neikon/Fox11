@@ -48,10 +48,9 @@ Configure Vivaldifox as the images you can find in this repository folder in [Mi
 1. Download the portable or installation file from [github.com/MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone/releases).
 2. Install the extra files it asks you to install. And run the program.
 3. At the bottom left corner press `Add Rule` -> `Add Process Rule`, type `firefox` -> `add`.
-4. On the left panel select and open `firefox` section. Change Mica to `Acrylic` for better blur effect.
-5. Dont forget to download my css file `acrylic_micaforeveryone.css` from `EXTRA THEMES` and  put it inside `Chrome` folder (and base files from Installation guide above).
-6. Remove and dont use any other min-max-close window button files.
-7. Expermental⚠️ In MicaForEveryone settings `firefox` section enable `Blur Behind` so when the window is not active it will still be blurred.
+4. On the left panel select and open `firefox` section. Change Mica to `Acrilyc` for better blur effect.
+5. MicaForEveryone settings `firefox` section enable `Blur Behind` so when the window is not active it will still be blurred.
+6. Dont forget to uncomment `@importurl('components/mica_support.css');` from `userChrome.css`
 
 > Only test it in Win11
 
