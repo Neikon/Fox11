@@ -70,6 +70,12 @@ Configure like this:
 5. MicaForEveryone settings `firefox` section enable `Blur Behind` so when the window is not active it will still be blurred.
 6. Dont forget to uncomment `@importurl('components/mica_support.css');` from `userChrome.css`
 
+## How to disable Mica
+
+Comment `@importurl('components/mica_support.css');` from `userChrome.css`
+
+
+
 > Only test it in Win11.
 
 > Thanks you to [Firefox-csshacks](https://mrotherguy.github.io/firefox-csshacks/?file=) for features code.
