@@ -69,13 +69,13 @@ Configure like this:
 2. Install the extra files it asks you to install. And run the program.
 3. At the bottom left corner press `Add Rule` -> `Add Process Rule`, type `firefox` -> `add`.
 4. On the left panel select and open `firefox` section. Change Mica to `Acrilyc` for better blur effect.
-5. MicaForEveryone settings `firefox` section enable `Blur Behind` so when the window is not active it will still be blurred.
-6. Dont forget to uncomment `@importurl('components/mica_support.css');` from `userChrome.css`
+5. Dont forget to uncomment `@importurl('components/mica_support.css');` from `userChrome.css`
 
 ## How to disable Mica
+- Delete firefox rule from Micaforeveryone
+- Comment `@importurl('components/mica_support.css');` from `userChrome.css`
 
-Comment `@importurl('components/mica_support.css');` from `userChrome.css`
-
-> Only test it in Win11.
+> Test it in Win11
+> Test it in Manjaro KDE(maybe need ForceBlur in kwin scripts)
 
 > Thanks you to [Firefox-csshacks](https://mrotherguy.github.io/firefox-csshacks/?file=) for features code.
