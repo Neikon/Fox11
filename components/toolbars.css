@@ -2,7 +2,7 @@
 .browserStack>browser{
     margin: 0px 4px 4px 4px !important; 
     border-radius: 8px !important;
-    /* outline: 1px solid color-mix(in srgb, var(--auto-accent-color) 94%, var(--lwt-tab-text)) !important; */
+    /* outline: 2px solid color-mix(in srgb, var(--auto-general-color) 50%, transparent) !important; */
     /* outline: 1px solid red !important; */
 }
  
@@ -11,36 +11,39 @@ findbar{
     z-index: 2; 
     margin: 0 4px 4px !important; 
 }
+#tabbrowser-tabpanels {
+    background-color: transparent !important;
 
+}
 #sidebar-box {
     margin-left:  4px !important;
     margin-bottom: 4px !important;
     border-radius: var(--general-border-radius) !important;
 }
+#browser {
+    --sidebar-border-color: transparent !important;
+} 
 
-.browserContainer, .browserStack, #browser{
+.browserContainer, .browserStack, .browserSidebarContainer, #browser, #appcontent{
     background-color: var(--auto-accent-color) !important;
-    background-color: transparent !important;
-    /* margin: 50px !important;  */
-
+    /* for debug only */
+    /* margin: 50px !important;   */
+    border-radius: 8px !important;
 }
-#navigator-toolbox{
+#navigator-toolbox, #navigator-toolbox-background{
+    border-color: var(--auto-accent-color) !important;
     background-color: var(--auto-accent-color) !important;
-    border-color: transparent !important;
 }
 #TabsToolbar {
     margin: 4px 4px 0px 4px !important;
     border-radius: var(--general-border-radius) !important;
-    /* border-bottom-left-radius: var(--general-border-radius) !important;
-    border-bottom-right-radius: var(--general-border-radius) !important; */
     background-color: var(--auto-general-color) !important;
+    /* background-color: transparent !important;*/  /* this will make tabs toolbar transparent coment above line too*/
 }
 /* Nav-bar */
 .browser-toolbar:not(.titlebar-color) {
     margin: 4px 4px 0px 4px !important;
-    /* margin: 4px 0px 4px 0px !important; */
     border-radius: var(--general-border-radius) !important;
-    background-color: var(--auto-accent-color) !important;
-    /* background-color: var(--auto-general-color) !important; */
+    background-color: var(--auto-general-color) !important;
     box-shadow: 4px;
 }

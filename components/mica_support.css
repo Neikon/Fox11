@@ -1,13 +1,18 @@
 #main-window{
-    background-color: color-mix(in srgb, var(--lwt-accent-color) 60%, transparent)  !important;
-    appearance: -moz-win-borderless-glass !important;
-    appearance: -moz-win-glass !important;
+    /* background-color: color-mix(in srgb, var(--lwt-accent-color) 60%, transparent)  !important; */
+    /* background-color: color-mix(in srgb, var(--auto-accent-color) 90%, transparent)  !important; */
+    background-color: transparent !important;
+    /* appearance: -moz-win-borderless-glass !important; */
 }
 #tabbrowser-tabpanels {
   background-color: transparent;
 }
 #navigator-toolbox {
   background-color: transparent !important;
+}
+#navigator-toolbox-background {
+  background-color: transparent !important;
+  /* appearance: -moz-win-borderless-glass !important; */
 }
 #appcontent, #browser, #tabbrowser-tabbox, #tabbrowser-tabpanels, .browserSidebarContainer {
   background-color: transparent !important;
