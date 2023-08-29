@@ -1,0 +1,24 @@
+.tab-background:is([selected], [multiselected]) {
+    /* color: var(--lwt-tab-text, var(--toolbar-color))!important; */
+    background-color: var(--auto-accent-color)!important;
+}
+
+@media (prefers-color-scheme: dark){ :root{
+    --auto-accent-color: color-mix(in srgb, var(--auto-general-color) 86%, white);
+}}
+ @media (prefers-color-scheme: light){ :root{
+    --auto-accent-color: color-mix(in srgb, var(--auto-general-color) 86%, black);
+}}
+:root{   
+    /* tab selected */
+    --tab-selected-bgcolor: var(--auto-accent-color) !important;
+    --lwt-selected-tab-background-color: var(--auto-accent-color) !important;
+    /* urlbar field */
+    --toolbar-field-background-color: var(--auto-accent-color) !important;
+    --toolbar-field-focus-background-color: var(--auto-accent-color) !important;
+    /* Urlbar text */
+    --toolbar-field-color: var(--lwt-text-color) !important;
+    --toolbar-field-focus-color: var(--lwt-text-color) !important;
+}
+/* tab selected border */
+#tabbrowser-tabs{ --lwt-tab-line-color: var(--auto-accent-color) !important; }

@@ -19,6 +19,8 @@ findbar{
     margin-left:  4px !important;
     margin-bottom: 4px !important;
     border-radius: var(--general-border-radius) !important;
+    border-color: transparent;
+    background-color: var(--auto-general-color) !important;
 }
 #browser {
     --sidebar-border-color: transparent !important;
@@ -28,7 +30,7 @@ findbar{
     background-color: var(--auto-accent-color) !important;
     /* for debug only */
     /* margin: 50px !important;   */
-    border-radius: 8px !important;
+    /* border-radius: 8px !important; */
 }
 #navigator-toolbox, #navigator-toolbox-background{
     border-color: var(--auto-accent-color) !important;
