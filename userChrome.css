@@ -1,5 +1,7 @@
 /* ############# Required files ############## */
-/* coment or uncoment  */
+/* coment/uncoment  to enable/disable*/
+
+/* @import url('components/mica_support.css'); */ /* Deprecate in Firefox 117  */
 @import url('components/autohide_bookmarks_and_main_toolbars.css');
 @import url('components/urlbar_centered_text.css');
 @import url('components/round_caption_buttons.css');

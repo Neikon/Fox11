@@ -39,11 +39,21 @@ A Firefox CSS themes with auto-color, Mica, auto-hide nav-bar support. Inspired 
 
 ## How to enable Auto-color
 
+**Uncomment** in `userchrome.css` the plugin you **use**
+
+**comment** in `userchrome.css` the plugin you **don't** use
+
+![1693329533229](image/readme/1693329533229.png)
+
 ### With VivaldiFox
 
 > This is more configurable, you can set theme color text in when web is ligth or dark, but the last update is a little bit old and slower than [Adaptive Tab Bar Colour](https://addons.mozilla.org/es/firefox/addon/adaptive-tab-bar-colour/)
 
 Download [VivaldiFox from Mozilla add-ons](https://addons.mozilla.org/es/firefox/addon/vivaldifox/)
+
+**Uncomment** `@importurl('components/vivaldifox.css');` in `userchrome.css` 
+
+**Comment** `@import url('components/adaptative_tab_bar_color.css');` in `userchrome.css` 
 
 Configure Vivaldifox as the images you can find in this repository folder in [Minimal-VivaldiFox-Theme/VivaldiFox config screenshots/](https://github.com/Neikon/Minimal-VivaldiFox-Theme/tree/master/VivaldiFox%20config%20screenshots)
 
@@ -51,9 +61,11 @@ Configure Vivaldifox as the images you can find in this repository folder in [Mi
 
 > This is less configurable, you can **NOT** set theme color text in when web is ligth or dark ()It take firefox default color black/white). But it was updated in 10 de jul. de 2023 (at the moment to write this), can update theme color when you scroll down the website and is a little bit faster than [VivaldiFox](https://addons.mozilla.org/es/firefox/addon/vivaldifox/).
 
-Download `Fox11_` from [Github Releases](https://github.com/Neikon/Fox11/releases)
-
 Download [Adaptive Tab Bar Colour](https://addons.mozilla.org/es/firefox/addon/adaptive-tab-bar-colour/)
+
+**Comment** `@importurl('components/vivaldifox.css');` in `userchrome.css`
+
+**Uncomment** `@import url('components/adaptative_tab_bar_color.css');` in `userchrome.css`
 
 Configure like this:
 
@@ -61,7 +73,7 @@ Configure like this:
 
 ![1691562162205](image/readme/1691562162205.png)
 
-## How to enable Mica
+## How to enable Mica (Deprecate in Firefox 117 )
 
 ![1691563418450](image/readme/1691563418450.png)
 
@@ -72,6 +84,7 @@ Configure like this:
 5. Dont forget to uncomment `@importurl('components/mica_support.css');` from `userChrome.css`
 
 ## How to disable Mica
+
 - Delete firefox rule from Micaforeveryone
 - Comment `@importurl('components/mica_support.css');` from `userChrome.css`
 
