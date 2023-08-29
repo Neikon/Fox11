@@ -13,7 +13,10 @@
    --auto-general-color: var(--lwt-accent-color) !important;
 }
 @media (prefers-color-scheme: dark){ :root{
+   /* For VivaldiFox */
    --auto-accent-color: color-mix(in srgb, var(--auto-general-color) 80%, white);
+   /* for Adaptive-Tab-Bar-Colour  */
+   /* --auto-accent-color: rgb(80, 80, 80);  */
 }}
 @media (prefers-color-scheme: light){ :root{
    --auto-accent-color: color-mix(in srgb, var(--auto-general-color) 80%, black);
