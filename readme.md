@@ -51,9 +51,9 @@ A Firefox CSS themes with auto-color, Mica, auto-hide nav-bar support. Inspired 
 
 Download [VivaldiFox from Mozilla add-ons](https://addons.mozilla.org/es/firefox/addon/vivaldifox/)
 
-**Uncomment** `@importurl('components/vivaldifox.css');` in `userchrome.css` 
+**Uncomment** `@importurl('components/vivaldifox.css');` in `userchrome.css`
 
-**Comment** `@import url('components/adaptative_tab_bar_color.css');` in `userchrome.css` 
+**Comment** `@import url('components/adaptative_tab_bar_color.css');` in `userchrome.css`
 
 Configure Vivaldifox as the images you can find in this repository folder in [Minimal-VivaldiFox-Theme/VivaldiFox config screenshots/](https://github.com/Neikon/Minimal-VivaldiFox-Theme/tree/master/VivaldiFox%20config%20screenshots)
 
@@ -89,6 +89,6 @@ Configure like this:
 - Comment `@importurl('components/mica_support.css');` from `userChrome.css`
 
 > Test it in Win11
-> Test it in Manjaro KDE(maybe need ForceBlur in kwin scripts)
+> Test it in Manjaro KDE(maybe need ForceBlur in kwin scripts) [Firefox 117 broke transparencies in linux (tabbar border is not transparent). Fix WIP]
 
 > Thanks you to [Firefox-csshacks](https://mrotherguy.github.io/firefox-csshacks/?file=) for features code.
